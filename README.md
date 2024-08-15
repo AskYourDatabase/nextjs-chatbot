@@ -1,33 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+This is a demo project demonstrating how to integrate AskYourDatabase chatbot into [Next.js](https://nextjs.org/).
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Prepare enviroment variables
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Copy `.env.local.example` to `.env.local` and replace with your own enviroment variable.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+`AYD_API_KEY` can be created in [API Key](https://www.askyourdatabase.com/dashboard/api-key) page.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+`AYD_CHATBOT_ID` can be found in the URL, for example `https://www.askyourdatabase.com/dashboard/chatbot/12345678-1234-1234-1234-123456789012` the chatbot ID is `12345678-1234-1234-1234-123456789012`.
 
 ## Deploy on Vercel
 
