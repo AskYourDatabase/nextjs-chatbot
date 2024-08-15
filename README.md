@@ -20,6 +20,4 @@ Copy `.env.local.example` to `.env.local` and replace with your own enviroment v
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAskYourDatabase%2Fnextjs-chatbot&env=AYD_API_KEY,AYD_CHATBOT_ID&envDescription=API_KEY%20can%20be%20created%20at%20https%3A%2F%2Fwww.askyourdatabase.com%2Fdashboard%2Fapi-key.%20CHATBOT_ID%20can%20be%20found%20in%20chatbot%20edit%20URL.)
